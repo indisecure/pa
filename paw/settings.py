@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'paw.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'indisecure$default',
-        'USER':'indisecure',
-        'PASSWORD':'bhoo@309',
-        'PORT':'3306',
-        'HOST':'indisecure.mysql.pythonanywhere-services.com'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'db.sqlite3',
+        # 'USER':'indisecure',
+        # 'PASSWORD':'bhoo@309',
+        # 'PORT':'3306',
+        # 'HOST':'indisecure.mysql.pythonanywhere-services.com'
     }
 }
 
